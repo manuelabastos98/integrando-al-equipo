@@ -17,20 +17,34 @@ p{
     font-size: 300;
 }
 
+  
 .image{
     display:block;
     border: 5px solid green;
     border-radius: 10px;
     height: 400px;
     margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
 }
 
+img:hover {
+  transform: scale(1.05);
+  }
+
 .link-button {
-    text-decoration: none;
-    color: black;
-    border: 1px solid gray;
-    background-color: #f2f2f2;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 2px 3px #888888;
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.link-button:hover {
+  background-color: #00b39b;
+  transform: scale(1.05);
 }
