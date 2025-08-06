@@ -1,16 +1,36 @@
 body {
-    background-color: rgb(255, 255, 165);
+    background-color: rgb(164, 238, 163);
 }
 
-img {
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transition: transform 0.3s ease;
+h1{
+    font-family: sans-serif;
+    font-size: 700;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 500;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 300;
+}
+
+  
+.image{
+    display:block;
+    border: 5px solid green;
+    border-radius: 10px;
+    height: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
 }
 
 img:hover {
   transform: scale(1.05);
-}
+  }
 
 .link-button {
   display: inline-block;
