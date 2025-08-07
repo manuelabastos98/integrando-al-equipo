@@ -2,6 +2,15 @@ body {
     background-color: rgb(164, 238, 163);
 }
 
+.tituloPrincipal{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 900;
+    margin-top: 40vh;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
 h1{
     font-family: sans-serif;
     font-size: 700;
@@ -49,4 +58,23 @@ img:hover {
 .link-button:hover {
   background-color: #00b39b;
   transform: scale(1.05);
+}
+
+.formBuscador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    gap: 0.5rem;
+}
+
+.formBuscador input[type="search"] {
+    border-radius: 0px 12px 12px 0px;
+    font-size: 1rem;
+    padding: 6px 12px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
 }
