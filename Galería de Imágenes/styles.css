@@ -61,20 +61,27 @@ img:hover {
 }
 
 .formBuscador {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2vh;
-    gap: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .formBuscador input[type="search"] {
-    border-radius: 0px 12px 12px 0px;
-    font-size: 1rem;
-    padding: 6px 12px;
+  border: none;
+  border-radius: 0px 12px 12px 0px;
+  height: 40px;
+  border-left: none;
+  font-size: 1rem;
+  padding: 6px 12px;
 }
 
 .icon {
-    display: flex;
-    align-items: center;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  border-right: none;
+  height: 28px;
+  padding: 6px 12px;
+  border-radius: 12px 0px 0px 12px;
+  box-sizing: content-box;
 }
