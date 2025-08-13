@@ -43,9 +43,9 @@ img:hover {
   transform: scale(1.05);
   }
 
-.link-button {
+.index-button {
   display: inline-block;
-  background-color: #007bff;
+  background-color: #20A421;
   color: white;
   padding: 12px 20px;
   text-decoration: none;
@@ -53,10 +53,41 @@ img:hover {
   border-radius: 8px;
   transition: background-color 0.3s ease, transform 0.2s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
 }
 
-.link-button:hover {
-  background-color: #00b39b;
+.botones{
+    display: flex;
+    justify-content:center
+}
+
+.page1-button{
+  background-color: #20A421;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-family: sans-serif;
+  margin-top: 30px;
+}
+
+
+.page2-button{
+  background-color: #20A421;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-family: sans-serif;
+  margin-top: 30px;
+  margin-left: 220px;
+
+}
+
+.index-button:hover {
+  background-color: #137913;
   transform: scale(1.05);
 }
 
@@ -73,6 +104,16 @@ img:hover {
   border-left: none;
   font-size: 1rem;
   padding: 6px 12px;
+}
+
+.formbuscador div:first-child {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px; /* separa el buscador de los botones */
+}
+
+.page1-button, .page2-button {
+  margin-right: 8px;
 }
 
 .icon {
